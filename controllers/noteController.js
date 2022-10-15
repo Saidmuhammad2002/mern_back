@@ -50,7 +50,7 @@ const createNewNote = asyncHandler(async (req, res) => {
   if (note) {
     return res.status(201).json({ message: "New note created" });
   } else {
-    return res.status(400).json({ message: "Invalid note data recieved" });
+    return res.status(400).json({ message: "Invalid note data received" });
   }
 });
 
